@@ -4,7 +4,6 @@ import { LinkContainer } from "react-router-bootstrap";
 import logo from "../assets/logo.png";
 
 const Header = () => {
-  console.log(Navbar);
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
