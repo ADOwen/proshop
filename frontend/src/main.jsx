@@ -6,6 +6,7 @@ import store from "./store.js";
 import App from "./App.jsx";
 import HomeScreen from "./screens/HomeScreen.jsx";
 import ProductScreen from "./screens/ProductScreen.jsx";
+import CartScreen from "./screens/CartScreen.jsx";
 import "./assets/styles/bootstrap.custom.css";
 import "./assets/styles/index.css";
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/product/:id",
         element: <ProductScreen />,
+      },
+      {
+        path: "/cart",
+        element: <CartScreen />,
       },
     ],
   },
